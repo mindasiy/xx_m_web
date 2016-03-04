@@ -1,0 +1,51 @@
+<% include header.html %>
+<link rel="stylesheet" href="stylesheets/index.css">
+
+<body class="myCenterBody">
+<!--header start-->
+<header class="ui-header ui-header-stable ui-border-b myCenterHeader">
+    <i class="ui-icon-return" onclick="history.back()"></i>
+    <h1>我</h1>
+    <img src="../icons/setting.png"/>
+</header>
+<!-- header end-->
+<div class="content contentBg">
+    <div class="myPhoto">
+        <div class="container">
+            <div class="ui-avatar">
+                <span></span>
+            </div>
+            <div class="nickName">Hi,cy_雨</div>
+        </div>
+    </div>
+    <div class="contentLists">
+        <div class="ui-arrowlink"><img src="../icons/Notepad.png"><span>我的订单</span></div>
+        <a href="myCollection"><div class="ui-arrowlink"><img src="../icons/file.png"><span>我的收藏</span></div></a>
+        <a href="myCoupons"><div class="ui-arrowlink"><img src="../icons/Heart.png"><span>优惠券</span></div></a>
+        <a href="uploadID"><div class="ui-arrowlink"><img src="../icons/CreditCard.png"><span>身份证照片上传</span></div></a>
+        <a href="myAddress"><div class="ui-arrowlink"><img src="../icons/Location.png"><span>地址管理</span></div></a>
+    </div>    
+
+
+    <div class="ui-actionsheet">  
+        <div class="ui-actionsheet-cnt">
+            <button class="photoSelected">拍照</button>  
+            <button>从相机选择</button>
+            <button id="cancel">取消</button> 
+        </div>         
+    </div>
+</div>
+
+<!-- js -->
+
+<script type="text/javascript">
+    $('.ui-avatar').off().on('click',function(e){
+        $('.ui-actionsheet').addClass('show');    
+    });
+    
+    $('#cancel').off().on('click',function(e){
+        $('.ui-actionsheet').removeClass('show');  
+    });
+    
+</script>
+<% include footer.html %>

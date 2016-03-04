@@ -1,0 +1,118 @@
+<% include header.html %>
+<link rel="stylesheet" href="stylesheets/index.css">
+
+<body>
+     <header>
+        <i class="logo"></i>
+        <div class="ui-searchbar ui-border-radius indexsearch">
+            <i class="ui-icon-search"></i>
+            <div class="ui-searchbar-input"><input value="" type="text" placeholder="新宝贝上线啦！" autocapitalize="off"></div>
+            <i class="ui-icon-close"></i>
+        </div>
+    </header>
+
+    <section id="tab" class="tabContent">
+            <div class="ui-tab">
+                <ul class="ui-tab-nav ui-border-b">
+                    <li class="current">分类一</li>
+                    <li>分类二</li>
+                    <li>分类三</li>
+                    <li>分类四</li>
+                    <li>分类五</li>
+                </ul>
+                <ul class="ui-tab-content" style="width:500%">
+                    <li>
+                        <div class="ui-slider">
+                            <ul class="ui-slider-content" style="width: 300%">
+                                <li><span style="background-image:url(http://192.168.1.101:3000/images/example/1.jpg)"></span></li>
+                                <li><span style="background-image:url(http://192.168.1.101:3000/images/example/2.jpg)"></span></li>
+                                <li><span style="background-image:url(http://192.168.1.101:3000/images/example/3.jpg)"></span></li>
+                            </ul>
+                        </div>                                           
+                        <div class="goodLists">
+                            <div class="good">
+                                <div class="goodImg"><img src="../images/example/goodOne.png"></div>
+                                <div class="goodDes">
+                                    <div class="goodTitle">真力时 Captain指挥官系官系列 CENTRAL SECOND...</div>
+                                    <div class="goodPrice">额外7折！$23 快来选购吧！</div>
+                                    <div class="goodSrc"><span>美国 sharkstroe.com</span><span>4</span><img src="../icons/star.png"></div>
+                                </div>
+                            </div>
+                            <div class="good">
+                                <div class="goodImg"><img src="../images/example/goodTwo.png"></div>
+                                <div class="goodDes">
+                                    <div class="goodTitle">真力时 Captain指挥官系官系列 CENTRAL SECOND...</div>
+                                    <div class="goodPrice"><span>$12</span><span>$40</span></div>
+                                    <div class="goodSrc"><span>美国 sharkstroe.com</span><span>4</span><img src="../icons/star.png"></div>
+                                </div>
+                            </div>
+                            <div class="good">
+                                <div class="goodImg"><img src="../images/example/goodOne.png"></div>
+                                <div class="goodDes">
+                                    <div class="goodTitle">真力时 Captain指挥官系官系列 CENTRAL SECOND...</div>
+                                    <div class="goodPrice">额外7折！$23 快来选购吧！</div>
+                                    <div class="goodSrc"><span>美国 sharkstroe.com</span><span>4</span><img src="../icons/star.png"></div>
+                                </div>
+                            </div>
+                            <div class="good">
+                                <div class="goodImg"><img src="../images/example/goodTwo.png"></div>
+                                <div class="goodDes">
+                                    <div class="goodTitle">真力时 Captain指挥官系官系列 CENTRAL SECOND...</div>
+                                    <div class="goodPrice">额外7折！$23 快来选购吧！</div>
+                                    <div class="goodSrc"><span>美国 sharkstroe.com</span><span>4</span><img src="../icons/star.png"></div>
+                                </div>
+                            </div>
+                            <div class="good lastGood">
+                                <div class="goodImg"><img src="../images/example/goodTwo.png"></div>
+                                <div class="goodDes">
+                                    <div class="goodTitle">真力时 Captain指挥官系官系列 CENTRAL SECOND...</div>
+                                    <div class="goodPrice">额外7折！$23 快来选购吧！</div>
+                                    <div class="goodSrc"><span>美国 sharkstroe.com</span><span>4</span><img src="../icons/star.png"></div>
+                                </div>
+                            </div>                                                                                                                 
+                        </div>
+                    </li>
+                    <li>内容2</li>
+                    <li>内容3</li>
+                    <li>内容4</li>
+                    <li>内容5</li>
+                </ul>
+            </div>
+    </section>
+
+
+    <div class="goTop">
+        
+    </div>
+
+    <script>
+        (function (){
+            var tab = new fz.Scroll('.ui-tab', {
+                role: 'tab',
+                autoplay: false,
+                interval: 0
+            });
+        })();
+    </script>
+    <script>
+    $('.ui-list li,.ui-tiled li').click(function(){
+        if($(this).data('href')){
+            location.href= $(this).data('href');
+        }
+    });
+    $('.ui-header .ui-btn').click(function(){
+        location.href= 'index.html';
+    });
+    </script>
+    <script>
+        (function (){
+            var slider = new fz.Scroll('.ui-slider', {
+                role: 'slider',
+                indicator: true,
+                autoplay: true,
+                interval: 3000
+            });
+        })();
+    </script>
+
+<% include footer.html %>

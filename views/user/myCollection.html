@@ -1,0 +1,48 @@
+<% include header.html %>
+<link rel="stylesheet" href="stylesheets/myCollection.css">
+
+
+<body class="myCenterBody">
+<!--header start-->
+<header class="ui-header ui-header-stable ui-border-b myCenterHeader">
+    <i class="ui-icon-return" onclick="history.back()"></i>
+    <h1>我的收藏</h1>
+    <div class="myCoHeader">整理</div>
+</header>
+<!-- header end-->
+<div class="content">
+    <div class="goodLists">
+        <div class="good">
+            <div class="goodImg"><img src="../images/example/goodOne.png"></div>
+            <div class="goodDes">
+                <div class="goodTitle">真力时 Captain指挥官系官系列 CENTRAL SECOND...</div>
+                <div class="goodPrice">额外7折！$23 快来选购吧！</div>
+                <div class="goodSrc"><span>美国 sharkstroe.com</span><span>4</span><img src="../icons/star.png"><img src="../icons/shareIcon.png"></div>
+            </div>
+        </div>
+        <div class="good">
+            <div class="goodImg"><img src="../images/example/goodTwo.png"></div>
+            <div class="goodDes">
+                <div class="goodTitle">真力时 Captain指挥官系官系列 CENTRAL SECOND...</div>
+                <div class="goodPrice"><span>$12</span><span>$40</span></div>
+                <div class="goodSrc"><span>美国 sharkstroe.com</span><span>4</span><img src="../icons/star.png"><img src="../icons/shareIcon.png"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottomPrompt">
+        <span>已经到最低啦</span>
+    </div>
+    <div class="bmPromptN"></div>
+
+    <div class="ui-actionsheet show">  
+        <div class="ui-actionsheet-cnt shareDiv">
+            
+            <div class="shareWord"><h4>分享</h4></div> 
+            <div class="shareIcons">分享</div>  
+        </div>         
+    </div>
+
+</div>
+
+<% include footer.html %>

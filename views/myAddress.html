@@ -1,0 +1,76 @@
+<% include header.html %>
+<link rel="stylesheet" href="stylesheets/myAddress.css">
+
+
+<body class="myCenterBody">
+<!--header start-->
+<header class="ui-header ui-header-stable ui-border-b myCenterHeader">
+    <i class="ui-icon-return" onclick="history.back()"></i>
+    <h1>收货地址</h1>
+    <img src="../icons/threeDot.png"/>
+</header>
+<!-- header end-->
+<div class="content">
+
+    <div class="addrItem">
+        <div class="addrWord">
+            <div class="addrName">XXX</div>
+            <div class="addrPhone">12345678911</div>
+            <div class="addrContent"><span>[默认]</span>江苏省南京市秦淮区朝天宫街道中山南路288号苏茂大厦9楼1座</div>
+        </div>
+        <div class="ui-form-item ui-form-item-checkbox addrRadio">
+            <label class="ui-checkbox-s">
+                <input type="checkbox" name="checkbox">
+            </label>
+        </div>
+    </div>
+    <div class="addrItem">
+        <div class="addrWord">
+            <div class="addrName">XXX</div>
+            <div class="addrPhone">12345678911</div>
+            <div class="addrContent"><span>[默认]</span>江苏省南京市秦淮区朝天宫街道中山南路103号</div>
+        </div>
+        <div class="ui-form-item ui-form-item-checkbox addrRadio">
+            <label class="ui-checkbox-s">
+                <input type="checkbox" name="checkbox">
+            </label>
+        </div>
+    </div>
+    <div class="addrItem">
+        <div class="addrWord">
+            <div class="addrName">XXX</div>
+            <div class="addrPhone">12345678911</div>
+            <div class="addrContent"><span>[默认]</span>江苏省南京市秦淮区朝天宫街道中山南路288号苏茂大厦9楼1座</div>
+        </div>
+        <div class="ui-form-item ui-form-item-checkbox addrRadio">
+            <label class="ui-checkbox-s">
+                <input type="checkbox" name="checkbox">
+            </label>
+        </div>
+    </div>
+   
+    <div class="bottomDiv">
+        <div class="allButton">
+            <a href="changeAddress"><div>
+                <img src="../icons/pin.png">
+                <div class="buttonContent">设为默认地址</div>
+            </a></div>
+        </div>
+        <div class="deleteButton">
+            <a href="addAddress"><div>
+                <img src="../icons/add.png">
+                <div class="buttonContent">添加新地址</div>
+            </a></div>
+        </div>
+    </div>
+
+  
+</div>
+
+<script type="text/javascript">
+
+    $('.addrItem').off().on('click',function(e){
+
+    });
+
+</script>

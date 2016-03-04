@@ -1,0 +1,129 @@
+/*
+create by mindasiy
+datetime 20160118
+*/
+ /*import  */
+@import url(frozen.css);
+
+/*index*/
+body, div, ol, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, form, fieldset, legend, input, button {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: "Heiti SC","Microsoft YaHei";
+    font-size: 100px;
+    outline: 0 none;
+    width: 100%;
+}
+body {
+    background-color: #fff;
+    margin: 0;
+    position: relative;
+    width: 100%;
+}
+a:hover, a:link, a:visited, a {
+    color: inherit;
+    text-decoration: none;
+}
+ul, li {
+    list-style: outside none none;
+}
+i {
+    font-style: normal;
+}
+.clear{ clear: both}
+.h2_clear{clear: both;    height: 0.5rem;}
+/*footer*/
+footer {
+    background-color: #282828;
+    position:fixed; bottom:0; width:12.42rem; height:1.68rem;   overflow:hidden;
+}
+
+
+.hidden{
+    display: none;
+}
+/*header*/
+header {
+    background-color: #282828;
+    width:12.42rem;
+    top: 0;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    height: 1.68rem;
+}
+header i.logo {
+    background: rgba(0, 0, 0, 0) url("../images/logo.png") no-repeat scroll 0 0 / 2.44rem 1.2rem;
+    display: block;
+    float: left;
+    height: 1.2rem;
+    margin: 0.24rem 0 0.24rem 0.2rem;
+    width: 2.44rem;
+}
+header .indexsearch {
+  float: left;
+    height: 1.2rem;
+    margin: 0.24rem 0 0.24rem 0.2rem;
+    text-align: left;
+    width: 9.3rem;
+}
+.menu {
+    height: 6rem;
+    width: 12.42rem;
+
+}
+.menu .nav {
+    float: left;
+    font-size: 0.5rem;
+    height: 2.25rem;
+    margin: 0.4rem 0.34rem 0 0.35rem;
+    overflow: hidden;
+    text-align: center;
+    width: 2.405rem;
+}
+.menu .nav img {
+    text-align: center;
+    height: 1.42rem;
+    width: 1.42rem;
+}
+.menu .nav p {
+    font-size: 0.5rem;
+}
+section.indexlist{ width: 12.42rem;height:100%; overflow:hidden; text-align: center;    }
+section.indexlist h2{ font-size: 0.6rem; text-align: left; height: 0.8rem; line-height: 0.8rem; margin-bottom: 0.2rem; font-weight: bold;  }
+section.indexlist h2:before{ content: ''; display: block; height:1rem; width: 0.2rem; background: #f33271; float: left; margin: 0rem 0.5rem }
+section.indexlist ul li{  height: 9rem; overflow: hidden ;margin: 0.2rem 0;     }
+section.indexlist ul li img{ width: 6rem; height: 6rem;  }
+section.indexlist ul li p{ font-size: 0.5rem; color: #646464; text-align: left; line-height: 0.7rem; height: 2.9rem}
+section.indexlist ul li p b{ color: #000;width: 100%; height: 0.7rem;overflow: hidden}
+section.indexmorelist{width: 12.42rem;height:100%; overflow:hidden; text-align: center;  font-size: 0.8rem;}
+.content{ width:12.42rem; height:100%; margin:1.68rem 0; overflow:hidden;  }
+.ui-bottom{
+    color: white;
+    height: 100%;
+    font-size: 12px;
+}
+.myCenterHeader{
+    background-color: black;
+    color: white;
+    height: 1.68rem;
+}
+.myCenterHeader i,h1{
+    height: 1.68rem;
+    line-height: 1.68rem;
+}
+.ui-icon-return{
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.active{
+    color:#f33270; 
+}
+
+.myCenterBody{
+    background-color: rgb(245,245,245);
+}

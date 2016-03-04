@@ -1,0 +1,40 @@
+<% include ../header.html %>
+<link rel="stylesheet" href="../stylesheets/payment.css">
+<body class="totaltariffbody">
+<!--header start-->
+<header class="ui-header ui-header-stable ui-border-b myCenterHeader">
+    <i class="ui-icon-return" onclick="history.back()"></i>
+    <h1>快捷支付</h1>
+</header>
+<!-- header end-->
+
+<!--body start-->
+<div class="content">
+    <div class="pay_phone_pic">
+<img src="../images/pay/pay_phone.png">
+    </div>
+
+
+    <div class="ui-form ui-border-t payment_con">
+        <form action="#" name="payment">
+            <div class="ui-form-item ui-form-item-pure  ui-border-radius">
+                <input type="text" placeholder="中国银行 尾号1234"  >
+                <a href="#" class="ui-icon-close"></a>
+            </div>
+            <div class="ui-form-item ui-form-item-r ui-border-b">
+                <input type="text" placeholder="请输入验证码">
+                <!-- 若按钮不可点击则添加 disabled 类 -->
+                <button type="button" class="ui-border-l">重新发送</button>
+                <a href="#" class="ui-icon-close"></a>
+            </div>
+            <div class="h2_clear"></div>
+            <button class="ui-btn-lg ui-btn ui-btn-red">
+                确认
+            </button>
+
+        </form>
+    </div>
+
+</div>
+<!--body end-->
+<% include ../footer.html %>

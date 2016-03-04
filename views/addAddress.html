@@ -1,0 +1,58 @@
+<% include header.html %>
+<link rel="stylesheet" href="stylesheets/myAddress.css">
+
+
+<body class="myCenterBody">
+<!--header start-->
+<header class="ui-header ui-header-stable ui-border-b addAddressHeader">
+    <i class="ui-icon-return" onclick="history.back()"></i>
+    <h1>添加新地址</h1>
+    <img src="../icons/threedotblack.png"/>
+</header>
+<!-- header end-->
+<div class="content">
+
+    <div class="ui-form-item ui-border-b">
+        <label>姓名</label>
+        <input type="text" placeholder="请输入姓名">
+        <i class="ui-icon-close hidden"></i>
+    </div>
+    <div class="ui-form-item ui-border-b">
+        <label>身份证号码</label>
+        <input type="tel" placeholder="18位身份证号码">
+        <i class="ui-icon-close hidden"></i>
+    </div>
+    <div class="ui-form-item ui-border-b addAresTop">
+        <label>请输入省市</label>
+        <input type="text" placeholder="请输入省市">
+        <i class="ui-icon-close hidden"></i>
+    </div>
+    <div class="ui-form-item ui-border-b">
+        <label>街道地址</label>
+        <input type="text" placeholder="请输入街道地址">
+        <i class="ui-icon-close hidden"></i>
+    </div>
+    <div class="ui-form-item ui-border-b">
+        <label>邮政编码</label>
+        <input type="tel" placeholder="请输入邮政编码">
+        <i class="ui-icon-close hidden"></i>
+    </div>
+    <div class="ui-form-item ui-border-b">
+        <label>手机号码</label>
+        <input type="tel" placeholder="请输入手机号码">
+        <i class="ui-icon-close hidden"></i>
+    </div>
+
+
+    <div class="hint">根据海关要求，收货人姓名、身份证号码、身份证照片必须一致。如要修改个人信息请到“我-设置”修改。</div>
+
+    <div class="addAddress-bottomDiv">保存</div>
+</div>
+
+<script type="text/javascript">
+
+    $('.addrItem').off().on('click',function(e){
+
+    });
+
+</script>

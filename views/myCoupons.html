@@ -1,0 +1,102 @@
+<% include header.html %>
+<link rel="stylesheet" href="stylesheets/myCoupons.css">
+
+<body class="myCenterBody">
+<!--header start-->
+<header class="ui-header ui-header-stable ui-border-b myCenterHeader">
+    <i class="ui-icon-return" onclick="history.back()"></i>
+    <h1>我的优惠券</h1>
+    <img src="../icons/threedot.png"/>
+</header>
+<!-- header end-->
+    <section id="tab" class="tabContent">
+        <div class="ui-tab">
+            <ul class="ui-tab-nav ui-border-b">
+                <li class="current">未使用(3)</li>
+                <li>已使用(3)</li>
+                <li>已过期(3)</li>
+            </ul>
+            <div class="blankDiv">
+                    <div class="sortButton" data-flag="1">排序</div>
+                </div>
+            <ul class="ui-tab-content" style="width:300%">
+                <li>
+                    <div class="couponItem">
+                        <div class="leftImg">
+                            <div class="imgDiv">
+                                <div class="imgDivWord"><div><span>¥</span><span>50</span></div><div>优惠券</div></div>
+                            </div>
+                        </div>
+                        <div class="rightDes">
+                            <div class="rightDesTitle"><span>¥50</span><span>物流抵用券</span></div>
+                            <div class="rightDesContent"><span>来自:霹雳爸爸</span></div>
+                            <div class="rightDesContent"><span>有效期：2015-11-02至2016-12-31</span></div>
+                        </div>
+                    </div>
+                    <div class="couponItem">
+                        <div class="leftImg">
+                            <div class="imgDiv">
+                                <div class="imgDivWord"><div><span>¥</span><span>50</span></div><div>优惠券</div></div>
+                            </div>
+                        </div>
+                        <div class="rightDes">
+                            <div class="rightDesTitle"><span>¥50</span><span>物流抵用券</span></div>
+                            <div class="rightDesContent"><span>来自:霹雳爸爸</span></div>
+                            <div class="rightDesContent"><span>有效期：2015-11-02至2016-12-31</span></div>
+                        </div>
+                    </div>
+                    <div class="couponItem">
+                        <div class="leftImg">
+                            <div class="imgDiv">
+                                <div class="imgDivWord"><div><span>¥</span><span>50</span></div><div>优惠券</div></div>
+                            </div>
+                        </div>
+                        <div class="rightDes">
+                            <div class="rightDesTitle"><span>¥50</span><span>物流抵用券</span></div>
+                            <div class="rightDesContent"><span>来自:霹雳爸爸</span></div>
+                            <div class="rightDesContent"><span>有效期：2015-11-02至2016-12-31</span></div>
+                        </div>
+                    </div>
+                </li>
+                <li>内容2</li>
+                <li>内容3</li>
+            </ul>
+        </div>
+    </section>
+
+
+    <div class="ui-actionsheet">  
+        <div class="ui-actionsheet-cnt">
+            <div class="active"><span>优惠金额</span><img src="../icons/right.png"></div> 
+            <div><span>到期时间</span></div>  
+        </div>         
+    </div>
+
+</body>
+<script class="demo-script">
+(function (){
+    var tab = new fz.Scroll('.ui-tab', {
+        role: 'tab',
+        autoplay: false,
+        interval: 3000
+    });
+})();
+
+
+$('.sortButton').off().on('click',function(e){
+    var sortButton = $('.sortButton');
+    var flag = $(sortButton).data('flag');
+    console.log(flag);
+    if( flag == 1){
+        $(sortButton).css('background','url("../icons/up.png") no-repeat center right;');
+        $('.ui-actionsheet').addClass('show'); 
+        $(sortButton).data('flag',2);       
+    }else{
+        $(sortButton).css('background','url("../icons/down.png") no-repeat center right;');
+        $('.ui-actionsheet').removeClass('show'); 
+        $(sortButton).data('flag',1);    
+    }
+
+
+})
+</script>

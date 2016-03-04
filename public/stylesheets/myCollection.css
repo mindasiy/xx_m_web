@@ -1,0 +1,213 @@
+/**
+** by zxd 2016-2-29
+*/
+
+.myCoHeader{
+	height: 1.68rem;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    margin-top: -23px;
+    font-size: 16px;
+}
+
+.goodSrc img:nth-of-type(2){
+	float: right;
+    height: 15px;
+    width: 13px;
+    overflow: hidden;
+    padding-right: 4px;
+    margin-top: -2px;
+}
+
+.bottomPrompt{
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-bottom: 1px solid #adadad;
+    margin: 50px 13px;
+    position: relative;
+}
+.bmPromptN{
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 13px;
+    position: relative;
+}
+
+.bottomPrompt span{
+	width: 120px;
+    display: inline-block;
+    height: 30px;
+    margin-top: 15px;
+    line-height: 30px; 
+    background: rgb(245,245,245);
+    color: #adadad;
+}
+
+.myCenterBody{
+	background-color: rgb(245,245,245);
+}
+.good{
+	height: 115px;
+	width: 100%;
+	margin: 2px;	
+	background-color: white;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.good img{
+	height: 100px;
+	width: 100px;
+	padding: 7px 6px;
+}
+
+.goodImg{
+	float: left;
+    overflow: hidden;
+}
+.goodDes{
+    overflow: hidden;
+    height: 100%;
+    padding: 0 10px;
+}
+.goodTitle{
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 13px;
+    color: #000000;
+    font-weight: bold;
+    height: 24px;
+    line-height: 24px;
+    margin-top: 10px;
+}
+.goodPrice{
+	height: 24px;
+	line-height: 24px;
+	font-size: 14px;
+    color: #DB1919;
+    margin-top: 10px;
+}
+.goodPrice span:nth-of-type(2){
+	color: #A1A1A1;
+	text-decoration: line-through;
+	padding-left: 10px;	
+}
+
+.goodSrc{
+	height: 24px;
+	line-height: 24px;
+	font-size: 10px;
+    color: #A1A1A1;
+    margin-top: 10px;
+}
+.goodSrc img{
+	float: right;
+    height: 10px;
+    width: 10px;
+    overflow: hidden;
+    padding-right: 4px;
+}
+
+.goodSrc span:nth-of-type(2){
+	float: right;
+	overflow: hidden;
+	padding-right: 16px;
+}
+
+.lastGood{
+	margin-bottom: 1.68rem;
+}
+
+.shareDiv{
+	margin-bottom: 1.68rem;
+	background-color: #ffffff;
+}
+.shareWord{
+	width: 100%;
+}
+
+.shareWord h4{
+	font-size: 13px;
+    color: #000000;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(173,173,173);
+    width: 95%;
+}
+
+.ui-actionsheet-cnt{
+    font-size: 21px;
+    position: fixed;
+    bottom: 0;
+    padding: 0;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.ui-actionsheet button:last-child {
+    margin:0;
+    border-radius: 0px;
+}
+
+.shareIcons{
+	height: 95px;
+}
+
+.iconItems{
+	width: 20%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+.iconItems img{
+	width: 45px;
+	height: 45px;
+	margin-top: 10px;
+}
+
+.iconItems div{
+	font-size: 12px;
+    color: #000000;
+}
+
+.radioSelected{
+	float: left;
+    height: 100%;
+    width: 25px;
+    margin-left: 4px;
+    overflow: hidden;
+    padding:0px 1px;
+}
+
+.bottomDiv{
+	bottom: 0;
+    height: 1.68rem;
+    line-height: 1.68rem;
+    position: fixed;
+    width: 100%;
+    border-top: 1px solid rgb(173,173,173);
+}
+
+.allButton{
+    float: left;
+    font-size: 14px;
+    margin-left: 10px;
+    overflow: hidden;
+    width: 50px;
+    text-align: center;
+}
+
+.deleteButton{
+	float: right;
+    font-size: 14px;
+    margin-right: 10px;
+    overflow: hidden;
+    width: 50px;
+    text-align: center;
+}

@@ -1,0 +1,19 @@
+<footer class="ui-footer">
+
+<ul class="ui-tiled ui-bottom">
+    <li data-href="index"><div>折扣</div></li>
+    <li data-href="sort"><div>分类</div></li>
+    <li data-href="myCenter"><div>我</div></li>
+</ul>
+
+</footer>
+<script>
+    $('.ui-list li,.ui-tiled li').click(function(){
+        if($(this).data('href')){
+            location.href= $(this).data('href');
+        }
+    });
+    </script>
+
+</body>
+</html>

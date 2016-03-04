@@ -1,0 +1,140 @@
+.myCenterHeader img {
+    height: 18px;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    margin-top: -10px;
+ }
+
+.tabContent{
+ 	margin-top: 1.68rem;
+ }
+.ui-tab-nav {
+    width: 70%;
+}
+
+.ui-tab-nav li:nth-of-type(1), .ui-tab-nav li:nth-of-type(2){
+	border-right: 1px #e0e0e0 solid;
+} 
+
+ .ui-tab-nav li {
+    height: 19px;
+    line-height: 19px;
+    margin: 8px 0;
+}
+
+.ui-tab-nav li.current{
+	border-bottom: 0px;
+}
+
+.sortButton{
+    width: 50px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #777777;
+    border-left: 1px #e0e0e0 solid;
+    background: url("../icons/down.png") no-repeat center right;
+    margin-right: 5px;
+    padding-right: 5px;
+    float: right;
+}
+.blankDiv{
+	width: 30%;
+    float: right;
+    margin-top: -36px;
+    background-color: white;
+    border-bottom: solid 1px #e0e0e0;
+}
+
+.couponItem{
+	height: 90px;
+    background-color: #ffffff;
+    border-bottom: solid 1px #e0e0e0;
+}
+
+.leftImg{
+    float: left;
+    overflow: hidden;
+    margin: 19px 0;
+    height: 52px;
+    width: 4.6575rem;
+    text-align: center;
+}
+
+.rightDes{
+    float: left;
+    overflow: hidden;
+    height: 58px;
+    vertical-align: middle;
+    padding: 16px 0;
+}
+
+.rightDesTitle{
+	font-size: 14px;
+    color: #282828;
+    font-weight: bold;
+    padding-bottom: 1px;
+}
+
+.rightDesContent{
+	color: #646464;
+}
+
+.imgDiv{
+	height: 100%;
+    width: 3.881rem;
+    margin: 0 auto;
+	background: url('../images/couponbg.png') no-repeat;
+    background-size: 3.881rem 52px; 
+}
+
+.imgDivWord{
+	height: 100%;
+	color: #ffffff;
+}
+
+.imgDivWord span:nth-of-type(2){
+	font-size: 18px;
+}
+
+.imgDivWord div:nth-of-type(1){
+	padding-top: 5px;
+}
+
+.imgDivWord div:nth-of-type(2){
+	margin-top: -7px;
+}
+
+.current div:last-child{
+	border-bottom: none;
+}
+
+.ui-actionsheet{
+	top:1.68rem;
+	margin-top: 35px;
+}
+
+.ui-actionsheet-cnt{
+    top: 1.68rem;
+    padding: 0px;
+    margin-top: 35px;
+}
+
+.ui-actionsheet-cnt div{
+    background-color: #ffffff;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    border-bottom: solid 1px #e0e0e0;
+    padding: 0 0.4657rem;
+}
+
+.ui-actionsheet-cnt img{
+	vertical-align: middle;
+    position: absolute;
+    right: 10px;
+    height: 26px;
+    margin: 7px 0;
+}

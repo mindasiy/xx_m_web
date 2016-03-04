@@ -1,0 +1,278 @@
+/* 
+** index.html CSS by zxd 2016-2-26
+*/
+
+
+.ui-search{
+	background-color: white;
+}
+.ui-search-in{
+	background-color: rgb(235, 236, 237);
+}
+.ui-tab-nav li{
+	min-width: 20%;
+}
+
+.tabContent{
+	margin-top: 1.68rem;
+}
+
+.ui-slider{
+	margin: 2px 0;
+}
+.ui-tab-content li:first-child{
+	background-color: rgb(245,245,245);
+}
+
+.good{
+	height: 115px;
+	width: 100%;
+	margin: 2px;	
+	background-color: white;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.good img{
+	height: 100px;
+	width: 100px;
+	padding: 7px 6px;
+}
+
+.goodImg{
+	float: left;
+    overflow: hidden;
+}
+.goodDes{
+    overflow: hidden;
+    height: 100%;
+    padding: 0 10px;
+}
+.goodTitle{
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 13px;
+    color: #000000;
+    font-weight: bold;
+    height: 24px;
+    line-height: 24px;
+    margin-top: 10px;
+}
+.goodPrice{
+	height: 24px;
+	line-height: 24px;
+	font-size: 14px;
+    color: #DB1919;
+    margin-top: 10px;
+}
+.goodPrice span:nth-of-type(2){
+	color: #A1A1A1;
+	text-decoration: line-through;
+	padding-left: 10px;	
+}
+
+.goodSrc{
+	height: 24px;
+	line-height: 24px;
+	font-size: 10px;
+    color: #A1A1A1;
+    margin-top: 10px;
+}
+.goodSrc img{
+	float: right;
+    height: 10px;
+    width: 10px;
+    overflow: hidden;
+    padding-right: 4px;
+}
+
+.goodSrc span:nth-of-type(2){
+	float: right;
+	overflow: hidden;
+	padding-right: 16px;
+}
+
+.lastGood{
+	margin-bottom: 1.68rem;
+}
+
+.goTop{
+    position: fixed;
+    width: 44px;
+    height: 44px;
+    background: url("../icons/goTopIcon.png") 100% 100% no-repeat;
+    z-index: 100;
+    bottom: 1.98rem;
+    right: 10px;
+    border-radius: 50%;
+}
+
+/**
+**sort.html  CSS  by zxd 2016-2-24
+*/
+
+
+.contentLeft {
+	z-index: 10;
+	width: 2.484rem;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+}
+
+.contentRight {
+	height: 100%;
+	background-color: rgb(245, 245, 245);
+	overflow: hidden;
+}
+
+.contentLeft ul{
+	overflow-y: auto;
+	background-color: rgb(252,252,252);
+}
+
+.contentLeft li{
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border-bottom: solid 1px rgb(224, 224, 224);
+	font-size: 13px;
+}
+
+
+.brands{
+	overflow: hidden;
+	margin: 10px 3px;
+}
+
+.brandsItems{
+	width: 33%;
+    height: 3.881rem;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.brands .kind{
+	width: 2.911rem;
+    height: 3.881rem;
+	margin: 0 auto;
+	background-color:#ffffff;
+	text-align: center;
+}
+
+.kind img{
+	height: 75%;
+}
+.kind div{
+	color: #646464;
+}
+.contentBg{
+	background-color: rgb(245,245,245);
+}
+
+.featuredBrands{
+	font-size: 16px;
+    color: #939393;
+}
+
+.featuredItems{
+	width: 33%;
+    height: 1.630rem;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.brands .featuredKind{
+	width: 2.911rem;
+    height: 1.630rem;
+	margin: 0 auto;
+	background-color:#ffffff;
+	text-align: center;
+}
+.featuredKind img{
+	height: 90%;
+}
+
+
+
+/*
+**myCenter.html CSS by zxd 2016-2-24
+**/
+
+.myCenterHeader img{
+	height: 18px;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    margin-top: -10px;
+}
+
+.myPhoto{
+	height: 125px;
+	background: url("../images/myCenterBg.png") 100% 100% no-repeat;
+}
+.myPhoto .nickName{
+	text-align: center;
+	line-height: 30px;
+    height: 30px;
+    color: #ffffff;
+    font-size: 18px;
+}
+.container{
+	padding-top: 26px;
+}
+.ui-avatar{
+	margin: 0 auto;
+}
+
+.ui-avatar{
+	background-image: url("../images/headImg.png");
+}
+.contentLists{
+	background-color: rgb(245,245,245);
+}
+
+.ui-arrowlink{
+	height: 49px;
+    line-height: 49px;
+    border: solid 1px #dbdbdb;
+    margin: 15px 1px 0 1px;
+    background-color: white;
+    padding-left: 5px;
+    color: #282828;
+    font-size: 14px;
+}
+.ui-arrowlink img{
+	height: 16px;
+	margin: 0px 10px;
+	vertical-align: middle;
+}
+.ui-arrowlink:before{
+	color:black;
+}
+
+
+.ui-actionsheet button{
+	height: 50px;
+	line-height: 50px;
+	background-color: #ffffff;
+}
+
+.ui-actionsheet button:nth-of-type(1){
+	border-radius: 10px 10px 0 0;
+}
+
+.ui-actionsheet button:nth-of-type(2){
+	border-radius: 0 0 10px 10px;
+}
+
+.ui-actionsheet button:nth-of-type(3){
+	border-radius: 10px 10px 10px 10px;
+}
+
+.ui-actionsheet-cnt .photoSelected{
+	color: #f33271;
+}

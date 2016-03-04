@@ -1,0 +1,241 @@
+
+/**
+** myCenter.html css
+**/
+.myCenterHeader img {
+    height: 18px;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    margin-top: -10px;
+}
+
+.bottomDiv{
+	bottom: 0;
+    height: 1.68rem;
+    position: fixed;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.allButton{
+	float: left;
+    font-size: 12px;
+    overflow: hidden;
+    width: 49%;
+    text-align: center;
+    height: 1.68rem;
+}
+
+.allButton div:first-child, .deleteButton div:first-child{
+	height: 1.48rem;
+    margin: 0.1rem 0;
+}
+
+.allButton img, .deleteButton img{
+	height: 0.776rem;
+    width: 0.776rem;
+    margin-top: 0.0776rem;
+}
+.buttonContent{
+	height: 0.7036rem;
+    margin-top: -0.1941rem;
+    line-height: 0.7036rem;
+}
+.deleteButton{
+	float: right;
+    font-size: 12px;
+    overflow: hidden;
+    width: 49%;
+    text-align: center;
+}
+
+.addrItem{
+	width: 100%;
+	height: 75px;
+	background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.addrWord{
+    float: left;
+    overflow: hidden;
+    height: 55px;
+    width: 84%;
+    padding: 10px 0 10px 10px;
+}
+.addrRadio{
+	height: 100%;
+	float: right;
+	overflow: hidden;
+	padding: 0px;
+	width: 9%
+}
+
+.addrName{
+    float: left;
+    overflow: hidden;
+    font-size: 14px;
+    color: #282828;
+    font-weight: bold;
+}
+
+.addrPhone{
+	float: right;
+    overflow: hidden;
+    font-size: 14px;
+    color: #282828;
+    font-weight: bold;
+}
+
+.addrContent{
+	float: left;
+    overflow: hidden;
+    word-break: break-all;
+}
+
+.addrContent span{
+	color: #1f8ec8;
+    padding-right: 1px;
+}
+
+
+/**
+**  addAddress.html css   by zxd 2016-3-2
+**
+****/
+
+.addAddressHeader{
+	background-color: #f5f5f5;
+    color: #000000;
+    height: 1.68rem;
+}
+
+.addAddressHeader i{
+	color: #000000;
+}
+
+.addAddressHeader img {
+    height: 18px;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    margin-top: -10px;
+}
+
+.addAddressHeader i , h1 {
+    height: 1.68rem;
+    line-height: 1.68rem;
+}
+
+.addAddress-bottomDiv{
+	bottom: 0;
+    height: 1.68rem;
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    color: #f33271;
+    line-height: 1.68rem;
+    text-align: center;
+    font-size: 14px;
+    border-top: solid 1px #adadad;
+}
+
+.ui-form-item{
+	font-size: 14px;
+	background-color: #ffffff;
+}
+
+.addAresTop{
+	margin-top: 10px;
+	border-top: 1px solid #e0e0e0;
+}
+
+.hint{
+	font-size: 12px;
+    color: #adadad;
+    margin: 15px 10px;
+}
+
+.addrID{
+	color: #adadad;
+}
+.changeAddrBottomDiv{
+    bottom: 0;
+    height: 1.68rem;
+    line-height: 1.68rem;
+    position: fixed;
+    width: 100%;
+    border-top: 1px solid #adadad;	
+    background-color: #ffffff;
+}
+
+.changeAddrDel {
+    float: left;
+    font-size: 14px;
+    margin-left: 10px;
+    overflow: hidden;
+    width: 50px;
+    text-align: center;
+}
+
+
+.changeAddrSave {
+    float: right;
+    font-size: 14px;
+    margin-right: 10px;
+    overflow: hidden;
+    width: 50px;
+    text-align: center;
+}
+
+
+
+/**
+**  uploadID.html css   by zxd 2016-3-2
+**
+****/
+
+.uploadIDHeader{
+    background-color: #ffffff;
+    color: #000000;
+    height: 1.68rem;
+}
+
+.uploadIDHeader img {
+    height: 18px;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    margin-top: -10px;
+}
+
+.uploadIDHeader i , .uploadIDHeader h1 {
+    color: #000000;
+    height: 1.68rem;
+    line-height: 1.68rem;
+}
+
+.hintID{
+    color: #282828;
+    margin: 20px;
+}
+
+.uploadIDImg{
+    height: 140px;
+    text-align: center;
+    margin: 20px 20px 0 20px;
+    background-color: #ffffff;
+        border: solid 1px #e0e0e0;
+}
+
+.uploadIDImg img{
+    height: 37px;
+    width: 37px;
+    margin-top: 37px;
+}
+
+.uploadIDImg div{
+    margin-top: 3px;
+}
